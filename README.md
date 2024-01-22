@@ -1,4 +1,4 @@
-Name : Vijayakumar M P
+Name : Vijaya kumar M P
 Email :727721euit177@skcet.ac.in
 
 *Project Name :* Zenvista Yoga
