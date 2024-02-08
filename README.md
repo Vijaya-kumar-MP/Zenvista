@@ -13,3 +13,9 @@ Email :727721euit177@skcet.ac.in
 - Created the folder structure for the frontend
 - Create a component Hello_World.jsx
 - Import the component in App.jsx and use it
+
+ <div id="header">
+            <Link to="/"><HomeIcon /></Link>
+            <Link to="/about">About</Link>
+        </div>
+    </>
