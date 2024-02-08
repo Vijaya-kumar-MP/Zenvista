@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Navbar.css */
 body {
   margin: 0;
@@ -78,3 +79,85 @@ body {
   border-bottom: 2px solid #fff;
 }
 
+=======
+/* Navbar.css */
+body {
+  margin: 0;
+  height: 100vh; /* Add this to ensure the body covers the full viewport height */
+}
+
+.navbar-wrapper {
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343434;
+  color: #fff;
+  padding: 10px;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #222;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: calc(100vh - 40px); /* Adjusted height to cover the full viewport height */
+  width: 250px;
+  z-index: 1;
+  overflow-y: auto; /* Add this to enable scrolling if needed */
+  padding-top: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+/* Navbar.css */
+.middle {
+  text-align: center;
+  position: relative;
+}
+
+.company-logo {
+  position: absolute;
+  top: 50%; /* Adjust the top value to vertically center the logo */
+  transform: translateY(-50%);
+  right: 460px; /* Adjust the left value to set the distance from the left */
+  width: 70px;
+  height: 70px;
+}
+
+.right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.right a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+>>>>>>> ee95a7b5ddd4d03b66daaf354fe62178931e0b79

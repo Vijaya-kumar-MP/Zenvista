@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Sidebar.css */
 .sidebar {
   width: 200px;
@@ -29,3 +30,36 @@
   border: none;
   cursor: pointer;
 }
+=======
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  transition: left 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+>>>>>>> ee95a7b5ddd4d03b66daaf354fe62178931e0b79
